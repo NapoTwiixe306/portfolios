@@ -1,0 +1,31 @@
+name: Deploy on VPS
+on: [push]
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+    - name: Deploy in Docker
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.HOST }}
+        username: ${{ secrets.USERNAME }}
+        password: ${{ secrets.PASSWORD }}
+        port: ${{ secrets.PORT }}
+        script: |
+          sudo docker stop JulienMilants
+          sudo docker rm JulienMilants
+
+          cd ~/
+          rm -rf JulienMilants
+
+          mkdir JulienMilants
+          cd JulienMilants
+
+          git init
+          git remote add origin https://NapoTwiixe306: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@github.com/NapoTwiixe306/CryptoExtension.git
+          git fetch
+          git pull origin main
+
+          sudo docker run -d --network="portainer_bridge" --name JulienMilants -v ~/JulienMilants:/var/www/html php:8.1-apache

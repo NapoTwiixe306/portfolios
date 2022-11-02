@@ -1,467 +1,386 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Document</title>
-<!-- ===== fichier css ===== -->
-<link rel="stylesheet" href="./assets/css/style.css">
-<link rel="stylesheet" href="assets/css/skins/color-1.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-<!-- ====== Modificateur de style ====== -->
-<link rel="stylesheet" href="assets/css/skins/color-1.css" class="alternate-style" title="color-1" disabled>
-<link rel="stylesheet" href="assets/css/skins/color-2.css" class="alternate-style" title="color-2" disabled>
-<link rel="stylesheet" href="assets/css/skins/color-3.css" class="alternate-style" title="color-3" disabled>
-<link rel="stylesheet" href="assets/css/skins/color-4.css" class="alternate-style" title="color-4" disabled>
-<link rel="stylesheet" href="assets/css/skins/color-5.css" class="alternate-style" title="color-5" disabled>
-<link rel="stylesheet" href="./assets/css/style-switcher.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
-<body>
-<!-- =====Début du conteneur principal ======= -->
-        <div class="main-container">
-            <!-- =====début header ====-->
-            <div class="aside">
-                <div class="logo">
-                    <a href="#"><span>J</span>ulien</a>
-                </div>
-                <div class="nav-togler">
-                    <span></span>
-                </div>
-                <ul class="nav">
-                    <li><a href="#home" class="active"><i class="fa fa-home"></i>Home</a></li>
-                    <li><a href="#about"><i class="fa fa-user"></i> A Propos</a></li>
-                    <li><a href="#services"><i class="fa fa-list"></i>Service</a></li>
-                    <li><a href="#portfolio"><i class="fa fa-briefcase"></i>Portfolio</a></li> 
-                    <!-- <li><a href="#contact"><i class="fa fa-comments"></i>Contact</a></li> -->
-                </ul>
+<body class="main-content">
+<header class="container header active" id="home">
+    <div class="header-content">
+        <div class="left-header">
+            <div class="h-shape"></div>
+            <div class="image">
+                <img src="/assets/img/avatar.jpg" alt="">
             </div>
-            <!-- =====fin de l'header ====-->
-            <!-- =====début du contenu main =====-->
-            <div class="main-content">
-                <!-- ===== Début de la section Home ===-->
-                <section class="home section" id="home">
-                    <div class="container">
-                        <div class="row">
-                            <div class="home-info padd-15">
-                                <h3 class="hello"><span>Julien Milants</span></h3>
-                                <h3 class="my-profession"><span class="typing"></span></h3>
-                                <p>Je suis développeur full stack, ce qui veux dire que je suis asser polivalant.</p>
-                            </div>
-                            <div class="home-img padd-15">
-                                <img src="./assets/img/avatar.jpg" alt="">
-                            </div>
+        </div>
+        <div class="right-header">
+            <h1 class="name">
+                <span>Julien Milants.</span>
+                Développeur Full Stack
+            </h1>
+            <p>
+                J'ai 20 ans,5 ans d'expérience en développement informatique.
+            </p>
+            <div class="btn-con">
+                <a href="" class="main-btn">
+                    <span class="btn-text">Bientôt Dispo</span>
+                    <span class="btn-icon"><i class="fas fa-download"></i></span>
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+    <section class="container about" id="about">
+        <div class="main-title">
+            <h2>A Propos de<span>moi</span><span class="bg-text">Mes Stats</span></h2>
+        </div>
+        <div class="about-container">
+            <div class="left-about">
+                <h4></h4>
+                <p>
+                    j'ai commencé la programmation, grâce à une vidéo Youtube, qui expliquait
+                    comment faire un plugin minecraft en java. étant déjà intéressé par la chose, j'ai donc regardé la vidéo, et donc j'ai du apprendre le java..
+                    et l'est pratiqué pendant 3 ans, pour ensuite me rediriger vers d'autres technologies, tel que le web, et le mobile<br /> <br />
+
+                </p>
+                <div class="btn-con">
+                    <a href="#" class="main-btn">
+                        <span class="btn-text">Bientôt Dispo </span>
+                        <span class="btn-icon"><i class="fas fa-download"></i></span>
+                    </a>
+                </div>
+            </div>
+            <div class="right-about">
+                <div class="about-item">
+                    <div class="abt-text">
+                        <p class="large-text">3+</p>
+                        <p class="small-text">Site <br>Créer</p>
+                    </div>
+                </div>
+                <div class="about-item">
+                    <div class="abt-text">
+                        <p class="large-text">5+</p>
+                        <p class="small-text">Langages <br /> Appris</p>
+                    </div>
+                </div>
+                <div class="about-item">
+                    <div class="abt-text">
+                        <p class="large-text">400+</p>
+                        <p class="small-text">Heures <br /> de programation</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about-stats">
+            <h4 class="stat-title">Mes Compétences</h4>
+            <div class="progress-bars">
+                <div class="progress-bar">
+                    <p class="prog-title">HTML</p>
+                    <div class="progress-con">
+                        <p class="prog-text">50%</p>
+                        <div class="progress">
+                            <span class="html"></span>
                         </div>
                     </div>
-                </section>
-                <!-- ===== fin section home =====-->
-                <!-- ===== Début de la section About ===-->
-                <section class="about section" id="about">
-                    <div class="container">
-                        <div class="row">
-                            <div class="section-title padd-15">
-                                <h2>A propos de moi</h2>
-                            </div>
-                            <div class="row">
-                                <div class="about-content padd-15">
-                                    <div class="row">
-                                        <div class="about-text padd-15">
-                                            <h3>je suis<span> Développeur full stack</span></h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus laboriosam deserunt dolore repellendus, fugit quae at omnis ratione, quibusdam rem, esse praesentium sunt autem ullam maxime et similique. Fugit, quaerat!</p>
-                                        </div>
-                                        <div class="row">
-                                            <div class="personal-info padd-15">
-                                                <div class="row">
-                                                    <div class="info-item padd-15">
-                                                        <p> Anniversaires : <span>3 mai 2002</span></p>
-                                                    </div>
-                                                    <div class="info-item padd-15">
-                                                        <p>Age : <span>20</span></p>
-                                                    </div>                
-                                                    <div class="info-item padd-15">
-                                                        <p>Email : <span>julien.milants@gmail.com</span></p>
-                                                    </div>
-                                                    <div class="info-item padd-15">
-                                                        <p>Pays : <span>Belgique</span></p>
-                                                    </div>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="buttons padd-15">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="skills padd-15">
-                                                <div class="row">
-                                                <div class="skill-item padd-15">
-                                                    <h5>Html / Css</h5>
-                                                    <div class="progress">
-                                                    <div class="progress-in" style="width: 85%;"></div>
-                                                    <div class="skill-percent">85%</div>
-                                                    </div>
-                                                </div>
-                                                <div class="skill-item padd-15">
-                                                    <h5>JavaScript</h5>
-                                                    <div class="progress">
-                                                    <div class="progress-in" style="width: 75%;"></div>
-                                                    <div class="skill-percent">75%</div>
-                                                    </div>
-                                                </div>
-                                                <div class="skill-item padd-15">
-                                                    <h5>Java</h5>
-                                                    <div class="progress">
-                                                    <div class="progress-in" style="width: 50%;"></div>
-                                                    <div class="skill-percent">50%</div>
-                                                    </div>
-                                                </div>
-                                                
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="education padd-15">
-                                                <h3 class="title">Parcours Scolaire</h3>
-                                                <div class="row">
-                                                    <div class="timeline-box padd-15">
-                                                        <div class="timeline shadow-dark">
-                                                            <!--====item de la timeline=====-->
-                                                            <div class="timeline-item">
-                                                                <div class="circle-dot"></div>
-                                                                <h3 class="timeline-date">
-                                                                <i class="fa fa-calendar"></i> 2013 - 2015
-                                                                </h3>
-                                                                <h4 class="timeline-title">Master in Computer Science</h4>
-                                                                <p class="timeline-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, maiores. Facere, minus? Quam minus autem quidem similique dignissimos cumque dolorum quis optio blanditiis, doloremque veritatis.</p>
-                                                            </div>
-                                                                <!-- ===== timeline item ===== -->
-                                                                <div class="timeline-item">
-                                                                    <div class="circle-dot"></div>
-                                                                    <h3 class="timeline-date">
-                                                                    <i class="fa fa-calendar"></i> 2013 - 2015
-                                                                    </h3>
-                                                                    <h4 class="timeline-title">Master in Computer Science</h4>
-                                                                    <p class="timeline-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, maiores. Facere, minus? Quam minus autem quidem similique dignissimos cumque dolorum quis optio blanditiis, doloremque veritatis.</p>
-                                                                </div>
-                                                                    <!-- ===== timeline item ===== -->
-                                                            <div class="timeline-item">
-                                                                <div class="circle-dot"></div>
-                                                                <h3 class="timeline-date">
-                                                                <i class="fa fa-calendar"></i> 2013 - 2015
-                                                                </h3>
-                                                                <h4 class="timeline-title">Master in Computer Science</h4>
-                                                                <p class="timeline-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, maiores. Facere, minus? Quam minus autem quidem similique dignissimos cumque dolorum quis optio blanditiis, doloremque veritatis.</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="experience padd-15">
-                                                <h3 class="title">Experience</h3>
-                                                <div class="row">
-                                                <div class="timeline-box padd-15">
-                                                    <div class="timeline shadow-dark">
-                                                    <!-- ===== timeline item ===== -->
-                                                    <div class="timeline-item">
-                                                        <div class="circle-dot"></div>
-                                                        <h3 class="timeline-date">
-                                                        <i class="fa fa-calendar"></i> 2015 - 2016
-                                                        </h3>
-                                                        <h4 class="timeline-title">Début de la programmation avec le java</h4>
-                                                        <p class="timeline-text">Premier pas pour moi dans le monde la programmation, sans aucune compétence, je me voit apprendre a coder mes permier ligne de code en java, pour que, 1 ans plus tard je fasse de vrai projets, qui seront tous basé sur minecraft</p>
-                                                    </div>
-                                                        <!-- ===== timeline item ===== -->
-                                                        <div class="timeline-item">
-                                                            <div class="circle-dot"></div>
-                                                            <h3 class="timeline-date">
-                                                            <i class="fa fa-calendar"></i> 2016 - 2017
-                                                            </h3>
-                                                            <h4 class="timeline-title">Début de l'apprentissage du développement mobile</h4>
-                                                            <p class="timeline-text">après avoir pris en main lejava, je commencais a me lasser, et je découvre qu'avec le java, ont pouvais faires des apps mobile, choses que j'ai immédiatement appris a faire, apres quelque mois d'entrainement, jai coder ma premiere app, qui n'eétais qu'une simple todoliste</p>
-                                                        </div>
-                                                            <!-- ===== timeline item ===== -->
-                                                    <div class="timeline-item">
-                                                        <div class="circle-dot"></div>
-                                                        <h3 class="timeline-date">
-                                                        <i class="fa fa-calendar"></i> 2017 - 2022
-                                                        </h3>
-                                                        <h4 class="timeline-title">Spécialisation web3, et full stack</h4>
-                                                        <p class="timeline-text">apres avoir toucher au java, j'ai décide de me spécialisé dans le web3, le monde de la cryptomoonaies, j'ai commencer a apprendre le dev web, puis le nodejs, le solidity, puis le php, et a maitriser les base de donnée</p>
-                                                    </div>
-                                                    </div>
-                                                </div>
-                                                </div>
-                                            </div>
-                                            </div>
-                                        </div>
-                                        </div>
-                                    </div>
-                                    </section>
-                                    <!-- ===== About Section End ===== -->
-                                    <!-- ===== Services Section Start ===== -->
-                                    <section class="service section" id="services">
-                                        <div class="container">
-                                        <div class="row">
-                                            <div class="section-title padd-15">
-                                            <h2>Services</h2>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <!-- ===== Service item Start ====== -->
-                                            <div class="service-item padd-15">
-                                            <div class="service-item-inner">
-                                                <div class="icon">
-                                                <i class="fa fa-mobile-alt"></i>
-                                                </div>
-                                                <h4>Web Design</h4>
-                                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil velit ab itaque.</p>
-                                            </div>
-                                            </div>
-                                            <!-- ===== Service item End ====== -->
-                                            <!-- ===== Service item Start ====== -->
-                                            <div class="service-item padd-15">
-                                            <div class="service-item-inner">
-                                                <div class="icon">
-                                                <i class="fa fa-laptop-code"></i>
-                                                </div>
-                                                <h4>Web Design</h4>
-                                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil velit ab itaque.</p>
-                                            </div>
-                                            </div>
-                                            <!-- ===== Service item End ====== -->
-                                            <!-- ===== Service item Start ====== -->
-                                            <div class="service-item padd-15">
-                                            <div class="service-item-inner">
-                                                <div class="icon">
-                                                <i class="fa fa-palette"></i>
-                                                </div>
-                                                <h4>Web Design</h4>
-                                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil velit ab itaque.</p>
-                                            </div>
-                                            </div>
-                                            <!-- ===== Service item End ====== -->
-                                            <!-- ===== Service item Start ====== -->
-                                            <div class="service-item padd-15">
-                                            <div class="service-item-inner">
-                                                <div class="icon">
-                                                <i class="fa fa-code"></i>
-                                                </div>
-                                                <h4>Web Design</h4>
-                                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil velit ab itaque.</p>
-                                            </div>
-                                            </div>
-                                            <!-- ===== Service item End ====== -->
-                                            <!-- ===== Service item Start ====== -->
-                                            <div class="service-item padd-15">
-                                            <div class="service-item-inner">
-                                                <div class="icon">
-                                                <i class="fa fa-search"></i>
-                                                </div>
-                                                <h4>Web Design</h4>
-                                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil velit ab itaque.</p>
-                                            </div>
-                                            </div>
-                                            <!-- ===== Service item End ====== -->
-                                            <!-- ===== Service item Start ====== -->
-                                            <div class="service-item padd-15">
-                                            <div class="service-item-inner">
-                                                <div class="icon">
-                                                <i class="fa fa-bullhorn"></i>
-                                                </div>
-                                                <h4>Web Design</h4>
-                                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil velit ab itaque.</p>
-                                            </div>
-                                            </div>
-                                            <!-- ===== Service item End ====== -->
-                                        </div>
-                                        </div>
-                                    </section>
-                                    <!-- ===== Services Section End ===== -->
-                                    <!-- ===== Portfolio Section Start ===== -->
-                                    <!--  <section class="portfolio section" id="portfolio">
-                                        <div class="container">
-                                        <div class="row">
-                                            <div class="section-title padd-15">
-                                            <h2>Portfolio</h2>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="portfolio-heading padd-15">
-                                            <h2>My Last Projects :</h2>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <!-- ====== portfolio item start ====== 
-                                            <div class="portfolio-item padd-15">
-                                            <div class="portfolio-item-inner shadow-dark">
-                                                <div class="portfolio-img">
-                                                <img src="./assets/img/portfolios/discord-logo.png" alt="">
-                                                <p>Bot Discord avec NodeJs et Discord.Js</p>
-                                                </div>
-                                            </div>
-                                            </div>
-                                            <!-- ====== portfolio item End ====== -->
-                                            <!-- ====== portfolio item start ====== 
-                                            <div class="portfolio-item padd-15">
-                                            <div class="portfolio-item-inner shadow-dark">
-                                                <div class="portfolio-img">
-                                                <img src="./assets/img/portfolios/aitools.png" alt="">
-                                                <p>Ai.Tools/Ai.Web, une extensions chrome</p>
-                                                </div>
-                                            </div>
-                                            </div>
-                                            <!-- ====== portfolio item End ====== -->
-                                            <!-- ====== portfolio item start ====== --
-                                            <div class="portfolio-item padd-15">
-                                            <div class="portfolio-item-inner shadow-dark">
-                                                <div class="portfolio-img">
-                                                <img src="images/portfolio/portfolio-3.jpg" alt="">
-                                                </div>
-                                            </div>
-                                            </div>
-                                            <!-- ====== portfolio item End ====== -->
-                                            <!-- ====== portfolio item start ====== --
-                                            <div class="portfolio-item padd-15">
-                                            <div class="portfolio-item-inner shadow-dark">
-                                                <div class="portfolio-img">
-                                                <img src="images/portfolio/portfolio-4.jpg" alt="">
-                                                </div>
-                                            </div>
-                                            </div>
-                                            <!-- ====== portfolio item End ====== -->
-                                            <!-- ====== portfolio item start ====== --
-                                            <div class="portfolio-item padd-15">
-                                            <div class="portfolio-item-inner shadow-dark">
-                                                <div class="portfolio-img">
-                                                <img src="images/portfolio/portfolio-5.jpg" alt="">
-                                                </div>
-                                            </div>
-                                            </div>
-                                            <!-- ====== portfolio item End ====== -->
-                                            <!-- ====== portfolio item start ====== --
-                                            <div class="portfolio-item padd-15">
-                                            <div class="portfolio-item-inner shadow-dark">
-                                                <div class="portfolio-img">
-                                                <img src="images/portfolio/portfolio-6.jpg" alt="">
-                                                </div>
-                                            </div>
-                                            </div>
-                                            <!-- ====== portfolio item End ====== --
-                                        </div>
-                                        </div>
-                                    </section>  -->
-                                    <!-- ===== Portfolio Section End ===== -->
-                                    <!-- ===== Contact Section Start ===== -
-                                    <section class="contact section" id="contact">
-                                        <div class="container">
-                                        <div class="row">
-                                            <div class="section-title padd-15">
-                                            <h2>Contact Me</h2>
-                                            </div>
-                                        </div>
-                                        <h3 class="contact-title padd-15">Have You Any Questions ?</h3>
-                                        <h4 class="contact-sub-title padd-15">I'M AT YOUR SERVICES</h4>
-                                        <div class="row">
-                                            <!-- ===== Contact info item start ====== --
-                                            <div class="contact-info-item padd-15">
-                                            <div class="icon"><i class="fa fa-phone"></i></div>
-                                            <h4>Call Us On</h4>
-                                            <p>+92 3330545218</p>
-                                            </div>
-                                            <!-- ===== Contact info item end ====== -->
-                                            <!-- ===== Contact info item start ====== --
-                                            <div class="contact-info-item padd-15">
-                                            <div class="icon"><i class="fa fa-map-marker-alt"></i></div>
-                                            <h4>Position</h4>
-                                            <p>Belgique</p>
-                                            </div>
-                                            <!-- ===== Contact info item end ====== -->
-                                            <!-- ===== Contact info item start ====== ->
-                                            <div class="contact-info-item padd-15">
-                                            <div class="icon"><i class="fa fa-envelope"></i></div>
-                                            <h4>Email</h4>
-                                            <p>julien.milants@gmail.com</p>
-                                            </div>
-                                            <!-- ===== Contact info item end ====== -->
-                                            <!-- ===== Contact info item start ====== --
-                                            <div class="contact-info-item padd-15">
-                                            <div class="icon"><i class="fa fa-globe-europe"></i></div>
-                                            <h4>Website</h4>
-                                            <p>www.domain.com</p>
-                                            </div>
-                                            <!-- ===== Contact info item end ====== --
-                                        </div>
-                                        <h3 class="contact-title padd-15">SEND ME AN EMAIL</h3>
-                                        <h4 class="contact-sub-title padd-15">I'M VERY RESPOSIVE TO MESSAGES</h4>
-                                        <!-- ====== Contact Form ====== --
-                                        <div class="row">
-                                            <div class="contact-form padd-15">
-                                            <div class="row">
-                                                <div class="form-item col-6 padd-15">
-                                                <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Name">
-                                                </div>
-                                                </div>
-                                                <div class="form-item col-6 padd-15">
-                                                <div class="form-group">
-                                                    <input type="email" class="form-control" placeholder="Email">
-                                                </div>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="form-item col-12 padd-15">
-                                                <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Subject">
-                                                </div>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="form-item col-12 padd-15">
-                                                <div class="form-group">
-                                                    <textarea name="" class="form-control" id=""  placeholder="Message"></textarea>
-                                                </div>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="form-item col-12 padd-15">
-                                                <button type="submit" class="btn">Send Message</button>
-                                                </div>
-                                            </div>
-                                            </div>
-                                        </div>
-                                        </div>
-                                    </section>
-                                    <!-- ===== Contact Section End ===== --
-                                    </div>
-                                    <!-- ===== Main Content End ===== --
-                                </div>
-                                <!-- ===== Main Container End ===== -->
-                                <!-- ===== Style Switcher Start ===== -->
-                                <div class="style-switcher">
-                                    <div class="style-switcher-toggler s-icon">
-                                    <i class="fas fa-cog fa-spin"></i>
-                                    </div>
-                                    <div class="day-night s-icon">
-                                    <i class="fas "></i>
-                                    </div>
-                                    <h4>Theme Colors</h4>
-                                    <div class="colors">
-                                    <span class="color-1" onclick="setActiveStyle('color-1')"></span>
-                                    <span class="color-2" onclick="setActiveStyle('color-2')"></span>
-                                    <span class="color-3" onclick="setActiveStyle('color-3')"></span>
-                                    <span class="color-4" onclick="setActiveStyle('color-4')"></span>
-                                    <span class="color-5" onclick="setActiveStyle('color-5')"></span>
-                                    </div>
-                                </div>
-                            </div>
+                </div>
+                <div class="progress-bar">
+                    <p class="prog-title">Javascript</p>
+                    <div class="progress-con">
+                        <p class="prog-text">70%</p>
+                        <div class="progress">
+                            <span class="css"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="progress-bar">
+                    <p class="prog-title">CSS</p>
+                    <div class="progress-con">
+                        <p class="prog-text">60%</p>
+                        <div class="progress">
+                            <span class="js"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="progress-bar">
+                    <p class="prog-title">NodeJS</p>
+                    <div class="progress-con">
+                        <p class="prog-text">60%</p>
+                        <div class="progress">
+                            <span class="node"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="progress-bar">
+                    <p class="prog-title">Java</p>
+                    <div class="progress-con">
+                        <p class="prog-text">60%</p>
+                        <div class="progress">
+                            <span class="python"></span>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+        <h4 class="stat-title">
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2015 - 2018</p>
+                    <h5>Java <span>- Minecraft</span></h5>
+                    <p>Comme mentionné précédemment, j'ai appris le java pour minecraft, et je l'ai pratiqué pendant 3 ans.</p>
+                </div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2018 - 2022</p>
+                    <h5>Découverte <span>- D'autres langages</span></h5>
+                    <p>étant lassé du java, j'ai découvert plusieurs autres langages, tel que le javascript avec nodejs, que j'ai pu apprendres en codant plusieurs bot discord</p>
+                </div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2022 - Toujours d'actualité</p>
+                    <h5>Premier site <span>- CryptoExtension</span></h5>
+                    <p>Après avoir appris le web, j'ai été capable de coder mon premier site, en mélangeant HTML, CSS et Javascript, mais je suis revenu sur ce site par la suite.</p>
+                </div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2022 - Toujours d'actualité</p>
+                    <h5>Site Web <span>- Site de Dylan</span></h5>
+                    <p>Commençant à être bon sur la création du site web, j'ai été contacter par un ami pour coder le site de son entreprise, le développement est toujours d'actualité</p>
+                </div>
+            </div>
+        </h4>
+    </section>
+    <section class="container" id="portfolio">
+        <div class="main-title">
+            <h2>Mon <span>Portfolio</span><span class="bg-text">My Work</span></h2>
+        </div>
+        <p class="port-text">
+            Voici quelques-uns de mes travaux dans divers langages de programmation.
+        </p>
+        <div class="portfolios">
+            <div class="portfolio-item">
+                <div class="image">
+                    <img src="assets/img/port1.png" alt="">
+                </div>
+                <div class="hover-items">
+                    <h3>CryptoExtension</h3>
+                    <div class="icons">
+                        <a href="http://github.com/NapoTwiixe306" class="icon">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://gitlab.com/NapoTwiixe306" class="icon">
+                            <i class="fab fa-gitlab"></i>
+                        </a>
+                        <a href="https://cryptoextension.fr/index.html" class="icon" target="_blank">
+                            <i class="fab fa-google"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="image">
+                    <img src="assets/img/port1.png" alt="">
+                </div>
+                <div class="hover-items">
+                    <h3>PortFolio</h3>
+                    <div class="icons">
+                        <a href="http://github.com/NapoTwiixe306" class="icon">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://gitlab.com/NapoTwiixe306" class="icon">
+                            <i class="fab fa-gitlab"></i>
+                        </a>
+                        <a href="https://julienmilants.fr" class="icon">
+                            <i class="fab fa-google"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="image">
+                    <img src="assets/img/port1.png" alt="">
+                </div>
+                <div class="hover-items">
+                    <h3>Site Dylan -<br> En Construction</h3>
+                    <div class="icons">
+                        <a href="http://github.com/NapoTwiixe306" class="icon">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://gitlab.com/NapoTwiixe306" class="icon">
+                            <i class="fab fa-gitlab"></i>
+                        </a>
+                        <a href="#" class="icon">
+                            <i class="fab fa-google"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container" id="blogs">
+        <div class="blogs-content">
+            <div class="main-title">
+                <h2>My <span>Blogs</span><span class="bg-text">My Blogs</span></h2>
+            </div>
+            <div class="blogs">
+                <div class="blog">
+                    <img src="./assets/img/port1.png" alt="">
+                    <div class="blog-text">
+                        <h4>
+                            Créer une extension chrome
+                        </h4>
+                        <p>
+                            J'ai créé Crypto Extension, pour faciliter la vie des personnes qui veulent voir le taux de pairs crypto-monnaie, et / ou la monnaie.
+                        </p>
+                    </div>
+                </div>
+                <div class="blog">
+                    <img src="./assets/img/port1.png" alt="">
+                    <div class="blog-text">
+                        <h4>
+                            Créer un portfolios
+                        </h4>
+                        <p>
+                            Création d'un simple PortFolios retraçant mon parcourt, dans la programmations informatique et autres
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container contact" id="contact">
+    <div class="contact-container">
+        <div class="main-title">
+            <h2>Contact <span>Me</span><span class="bg-text">Contact</span></h2>
+        </div>
+        <div class="contact-content-con">
+            <div class="left-contact">
+                <h4>Contacter moi ici</h4>
+                <p>
+                    les informations ci-dessous, servent donc a me contacter en cas de besoin, <strong><br/>attentions, le formulaires est toujours en court de création</strong>
+                </p>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Location</span>
+                        </div>
+                        <p>
+                            : Belgique
+                        </p>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon">
+                            <i class="fas fa-envelope"></i>
+                            <span>Email</span>
+                        </div>
+                        <p>
+                            <span>: julien.milants@gmail.com</span>
+                        </p>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon">
+                            <i class="fas fa-user-graduate"></i>
+                            <span>Ecole</span>
+                        </div>
+                        <p>
+                            <span>: Hôtellerie de spa (Belgique)</span>
+                        </p>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon">
+                            <i class="fas fa-globe-africa"></i>
+                            <span>Langues</span>
+                        </div>
+                        <p>
+                            <span>: Français, Englais.</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="contact-icons">
+                    <div class="contact-icon">
+                        <a href="https://www.facebook.com/profile.php?id=100013479250959" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://gitlab.com/NapoTwiixe306" target="_blank">
+                            <i class="fab fa-gitlab"></i>
+                        </a>
+                        <a href="https://github.com/NapoTwiixe306" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.instagram.com/julien.milants/" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="right-contact">
+                <form action="" class="contact-form">
+                    <div class="input-control i-c-2">
+                        <input type="text" required placeholder="Nom, Prénom">
+                        <input type="email" required placeholder="Votre Email">
+                    </div>
+                    <div class="input-control">
+                        <input type="text" required placeholder="Un sujet">
+                    </div>
+                    <div class="input-control">
+                        <textarea name="" id="" cols="15" rows="8" placeholder="Votre Message..."></textarea>
+                    </div>
+                    <div class="submit-btn">
+                        <a href="#" class="main-btn">
+                            <span class="btn-text">Envoyé</span>
+                            <span class="btn-icon"><i class="fas fa-download"></i></span>
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+</main>
+
+<div class="controls">
+    <div class="control active-btn" data-id="home" >
+        <i class="fas fa-home"></i>
+    </div>
+    <div class="control" data-id="about">
+        <i class="fas fa-user"></i>
+    </div>
+    <div class="control" data-id="portfolio">
+        <i class="fas fa-briefcase"></i>
+    </div>
+    <div class="control" data-id="blogs">
+        <i class="far fa-newspaper"></i>
+    </div>
+    <div class="control" data-id="contact">
+        <i class="fas fa-envelope-open"></i>
     </div>
 </div>
-<!-- ===== Style Switcher End ===== -->
-<!-- ===== JS Files ===== -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
-<script src="./assets/js/script.js"></script>
-<script src="./assets/js/style-switcher.js"></script>
+<div class="theme-btn">
+    <i class="fas fa-adjust"></i>
+</div>
+<script src="./assets/js/index.js"></script>
 </body>
 </html>

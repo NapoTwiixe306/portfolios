@@ -24,7 +24,7 @@ jobs:
           cd JulienMilants
 
           git init
-          git remote add origin https://NapoTwiixe306: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@github.com/NapoTwiixe306/portfolio.git
+          git remote add origin https://NapoTwiixe306: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@github.com/NapoTwiixe306/portfolios.git
           git fetch
           git pull origin main
 
